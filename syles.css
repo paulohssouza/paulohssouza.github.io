@@ -17,3 +17,8 @@ p{
 body{
     background-color: #6874E8;
 }
+
+strong{
+    font-style: italic;
+    font-weight: bold;
+}
