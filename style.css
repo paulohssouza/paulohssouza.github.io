@@ -1,134 +1,137 @@
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
+@media (max-width: 600px) {
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    background-color: black;
+    padding: 10px;
+  }
 
-body {
-  background-color: black;
-  padding: 30px;
-  display: flex;
-  justify-content: center;
-}
+  a {
+    text-decoration: none;
+  }
 
-a {
-  color: white;
-  text-decoration: none;
-}
+  .box-all {
+    background: rgb(65, 65, 65);
+    background: linear-gradient(90deg, rgb(65, 65, 65) 35%, rgb(189,186,186) 35%, rgb(189, 186, 186) 100%);
+    box-shadow: 7px 7px 8px white;
+    flex-direction: column;
+    align-items: center;
+    padding: 5px;
+  }
 
-.containner {
-  display: flex;
-  flex-wrap: wrap;
+  .containner {
+    display: flex;
+    flex-wrap: wrap;
+  }
 
-}
+  .header-box {
+    background: rgb(65, 65, 65);
+    background: linear-gradient(90deg, rgb(189, 186, 186) 30%, rgb(189, 186, 186) 30%, rgb(65, 65, 65)100%);
+    border-radius: 15px;
+    box-shadow: 7px 7px 8px black;
+    width: 85%;
+    align-items: center;
+    justify-content: space-evenly;
+  }
 
-.header {
-  background: rgb(182,182,182);
-  background: linear-gradient(90deg, rgb(224, 224, 224) 0%, rgba(189,189,190,1) 10%, rgb(128, 128, 128) 100%);
-  border-top-left-radius: 100px;
-  border-bottom-left-radius: 100px;
-  align-items: center;
-  gap: 100px;
-  box-shadow: 15px 10px 10px rgb(0, 0, 0);
-  width: 85%;
-}
+  .text-perfil {
+    flex-direction: column;
+  }
 
-.name {
-  flex-direction: column;
-}
+  .name-perfil {
+    font-size: 12px;
+    text-decoration: underline;
+  }
 
-.profile{
-  gap: 10px;
-  justify-content: space-around;
-}
+  .title-perfil {
+    font-size: 10px;
+  }
 
-.h2-left {
-  color: white;
-}
+  #perfil {
+    width: 30%;
+  }
 
-.icons-contact {
-  width: 50px;
-  height: 50px;
-}
+  .main-box {
+    width: 100%;
+    padding: 5px;
+    gap: 5px;
+  }
 
-.contact {
-  gap: 10px;
-  justify-content: space-around;
-}
+  .profile-box {
+    width: 33%;
+    padding: 5px;
+    border: solid red 1px;
+  }
 
-.icons {
-  flex-direction: column;
-  align-items: center;
-  padding: 20px;
-  gap: 25px;
-}
+  .title-profile {
+    gap: 5px;
+    align-items: center;
+  }
 
-.text-contact {
-  color: white;
-  font-size: 18px;
-}
+  .hexagon {
+    width: 10px;
+    height: 10px;
+  }
 
-.hobbies-title {
-  gap: 10px;
-  justify-content: space-around;
-}
+  .title-pch {
+    font-size: 12px;
+    color: white;
+  }
 
-.hobbies-list {
-  justify-content: center;
-  color: white;
-  padding: 10px;
-  font-size: 18px;
-}
+  .line {
+    width: 30px;
+    height: 10px;
+  }
 
-#text-profile {
-  padding: 20px;
-}
+  .profile-description {
+    padding: 5px;
+    font-size: 12px;
+    color: white;
+  }
 
-#description-profile {
-  color: white;
-  font-size: 18px;
-  text-align: left;
-}
+  .title-contact {
+    gap: 5px;
+    align-items: center;
+  }
 
-#block-left {
-  width: 20%;
-}
+  .contact-description {
+    padding: 5px;
+    gap: 5px;
+    flex-direction: column;
+    align-items: center;
+  }
 
-#hexagon {
-  width: 25px;
-  height: 25px;
-}
+  .icons {
+    width: 30px;
+    height: 30px;
+  }
 
-#line {
-  height: 25px;
-  width: 40%;
-}
+  .text-contact {
+    font-size: 8px;
+    color: white;
+  }
 
-#containner-header {
-  padding: 50px;
-}
+  .title-hobbies {
+    gap: 5px;
+    align-items: center;
+  }
 
-#perfil {
-  width: 15%;
-  height: 15%;
-  border-top-left-radius: 100px;
-  border-bottom-left-radius: 100px;
-}
+  .hobbies-description {
+    flex-direction: column;
+    padding: 5px;
+  }
 
-#containner-all {
-  padding: 20px;
-  max-width: 1200px;
-  justify-content: center;
-  background: rgb(65,65,65);
-  background: linear-gradient(90deg, rgba(65, 65, 65, 0.87) 25%, rgb(216, 216, 216) 25%, rgba(216,216,216,1) 100%);
-  box-shadow: 15px 10px 10px rgb(39, 39, 39);
-}
+  .text-hobbies {
+    color: white;
+    font-size: 12px;
+  }
 
-#nome-header {
-  text-decoration: underline;
-  font-size: 30px;
-}
-
-#title {
-  font-size: 20px;
+  .skills-box {
+    width: 65%;
+    border: solid red 1px;
+  }
 }
