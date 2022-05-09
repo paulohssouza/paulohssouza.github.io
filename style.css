@@ -18,6 +18,7 @@ a {
 
 .containner {
   display: flex;
+  flex-wrap: wrap;
 
 }
 
@@ -29,6 +30,7 @@ a {
   align-items: center;
   gap: 100px;
   box-shadow: 15px 10px 10px rgb(0, 0, 0);
+  width: 85%;
 }
 
 .name {
@@ -37,6 +39,7 @@ a {
 
 .profile{
   gap: 10px;
+  justify-content: space-around;
 }
 
 .h2-left {
@@ -50,6 +53,7 @@ a {
 
 .contact {
   gap: 10px;
+  justify-content: space-around;
 }
 
 .icons {
@@ -61,7 +65,19 @@ a {
 
 .text-contact {
   color: white;
-  font-size: 15px;
+  font-size: 18px;
+}
+
+.hobbies-title {
+  gap: 10px;
+  justify-content: space-around;
+}
+
+.hobbies-list {
+  justify-content: center;
+  color: white;
+  padding: 10px;
+  font-size: 18px;
 }
 
 #text-profile {
@@ -70,7 +86,7 @@ a {
 
 #description-profile {
   color: white;
-  font-size: 15px;
+  font-size: 18px;
   text-align: left;
 }
 
@@ -85,7 +101,7 @@ a {
 
 #line {
   height: 25px;
-  width: 60%;
+  width: 40%;
 }
 
 #containner-header {
